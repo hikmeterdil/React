@@ -3,9 +3,9 @@ import React from "react";
 export function DogPhoto({dogPhotos}) {
     return (
         
-        <div>
+        <div className="dog-holder">
             {dogPhotos.map(item => (
-                <img src={item} alt="dog"/>
+                <img className="dog-photo" src={item} alt="dog"/>
             ))}
         </div>
         

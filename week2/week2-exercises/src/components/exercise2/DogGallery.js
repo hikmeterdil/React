@@ -1,6 +1,5 @@
 import React, {useState,useEffect} from "react";
 import {DogPhoto} from "./DogPhoto";
-import {Button} from "./Button";
 
 export function DogGallery() {
     const [dogPhotos, setDogPhotos] = useState([]);
@@ -39,8 +38,10 @@ export function DogGallery() {
 
             if(getDogPhoto) {
                 return (
+                    
                     <div className='dog-photos'>
-                        <button onClick={getDogPhoto}>Get your first dog!</button>
+                        <p>Click on the button to get your first dog!</p>
+                        <button onClick={getDogPhoto}>Get a dog!</button>
                         <DogPhoto dogPhotos={dogPhotos}/>
                     </div>
                 )

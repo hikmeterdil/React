@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import {Friend} from "./exercise1/components/Friend";
-import { DogGallery } from "./exercise2/components/DogGallery";
-import {RandomJoke} from "./exercise3/components/RandomJoke";
+import {Friend} from "./components/exercise1/Friend";
+import { DogGallery } from "./components/exercise2/DogGallery";
+import {RandomJoke} from "./components/exercise3/RandomJoke";
 
 function App() {
   return (

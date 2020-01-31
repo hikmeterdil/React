@@ -2,7 +2,7 @@ import React from "react";
 
 export function Joke({ joke }) {
   return (
-    <div>
+    <div className="jokes">
       <p>{joke.setup}</p>
       <p>{joke.punchline}</p>
     </div>
