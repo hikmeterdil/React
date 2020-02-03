@@ -8,7 +8,7 @@ const Counter = () => {
   };
 
   const feedback = (
-    <div>{count < 10 ? "Keep counting" : "It is higher than 10"}</div>
+    <div>{count <= 10 ? "Keep counting" : "It is higher than 10"}</div>
   );
 
   return (

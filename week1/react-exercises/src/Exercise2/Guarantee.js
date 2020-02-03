@@ -6,19 +6,19 @@ import chat from '../../src/images/chat.png';
 export function Guarantee() {
     
 const data = [{
-    image: `${delivery}`,
+    image: delivery,
     title: "Free Shipping",
     description:"Fast and reliable delivery from our storage to your home, your products are under guarantee through all delivery process."
     },
 
     {
-    image: `${coin}`,
+    image: coin,
     title: "100% Money Back",
     description:"Fast and reliable delivery from our storage to your home, your products are under guarantee through all delivery process."
     },
 
     {
-    image: `${chat}`,
+    image: chat,
     title: "Online Support 24/7",
     description:"Fast and reliable delivery from our storage to your home, your products are under guarantee through all delivery process."
     }
