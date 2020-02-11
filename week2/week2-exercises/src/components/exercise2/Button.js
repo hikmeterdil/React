@@ -1,6 +1,6 @@
   
 import React from "react";
 
-export function Button({ onClick }) {
-  return <button onClick={onClick}>Get a dog!</button>;
+export function Button({ getDogPhoto }) {
+  return <button onClick={getDogPhoto}>Get a dog!</button>;
 }

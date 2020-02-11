@@ -12,7 +12,6 @@ export function DogGallery() {
             .then(data => {
                 setDogPhotos([data.message, ...dogPhotos]);
                 setLoading(false);
-                console.log(dogPhotos);
             })
             .catch(err => {
                 console.log(err);
